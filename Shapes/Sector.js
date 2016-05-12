@@ -1,13 +1,12 @@
 'use strict';
 
-var React = require('react-native');
+import React, { PropTypes } from 'react';
 var {
-  PropTypes,
   ART: {
     Shape,
     Path
   }
-} = React;
+} = require('react-native');
 
 var makeSectorPath = function(x, y, angle, radius) {
   var circle = Math.PI * 2;

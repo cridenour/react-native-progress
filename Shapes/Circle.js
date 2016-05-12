@@ -1,13 +1,12 @@
 'use strict';
 
-var React = require('react-native');
+import React, { PropTypes } from 'react';
 var {
-  PropTypes,
   ART: {
     Shape,
     Path
   }
-} = React;
+} = require('react-native');
 
 var makeCirclePath = function(x, y, radius, direction) {
   var arcMethod = direction === 'counter-clockwise' ? 'counterArc' : 'arc';

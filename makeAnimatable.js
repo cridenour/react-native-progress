@@ -1,11 +1,10 @@
 'use strict';
 
-var React = require('react-native');
+import React, { PropTypes } from 'react';
 var {
-  PropTypes,
   Animated,
   Easing,
-} = React;
+} = require('react-native');
 
 var makeAnimatable = function(Component, indeterminateProgress) {
   var AnimatedComponent = Animated.createAnimatedComponent(Component);

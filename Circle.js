@@ -1,6 +1,6 @@
 'use strict';
 
-var React = require('react-native');
+import React, { PropTypes } from 'react';
 var {
   View,
   PropTypes,
@@ -8,7 +8,7 @@ var {
   ART: {
     Surface
   }
-} = React;
+} = require('react-native');
 
 var Arc = require('./Shapes/Arc');
 

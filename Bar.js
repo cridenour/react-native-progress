@@ -1,12 +1,11 @@
 'use strict';
 
-var React = require('react-native');
-var {
+import React, { PropTypes } from 'react';
+import {
   Animated,
   Easing,
   View,
-  PropTypes,
-} = React
+} from 'react-native';
 
 var INDETERMINATE_WIDTH_FACTOR = 0.3;
 var BAR_WIDTH_ZERO_POSITION = INDETERMINATE_WIDTH_FACTOR / (1+INDETERMINATE_WIDTH_FACTOR);

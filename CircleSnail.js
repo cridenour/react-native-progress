@@ -1,15 +1,14 @@
 'use strict';
 
-var React = require('react-native');
+import React, { PropTypes } from 'react';
 var {
   View,
-  PropTypes,
   Animated,
   Easing,
   ART: {
     Surface
   }
-} = React;
+} = require('react-native');
 
 var Arc = Animated.createAnimatedComponent(require('./Shapes/Arc'))
 

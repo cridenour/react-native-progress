@@ -1,13 +1,12 @@
 'use strict';
 
-var React = require('react-native');
+import React, { PropTypes } from 'react';
 var {
   View,
-  PropTypes,
   ART: {
     Surface
   }
-} = React;
+} = require('react-native');
 
 var Circle = require('./Shapes/Circle');
 var Sector = require('./Shapes/Sector');
