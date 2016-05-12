@@ -3,7 +3,6 @@
 import React, { PropTypes } from 'react';
 var {
   View,
-  PropTypes,
   Text,
   ART: {
     Surface
